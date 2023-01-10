@@ -107,7 +107,7 @@ def inicio():
  print(f"{color.verde}[2]INSTAGRAM")
  print(f"{color.verde}[3]FACEBOOK")
  print(f"{color.verde}[4]PAYPAL")
- print(f"{color.amarillo}[2]AYUDA")
+ print(f"{color.amarillo}[5]AYUDA")
  print(f"{color.rojo}[0]SALIR{color.fin}")
  eleccion = input(f"{color.cyan}ELIGE UN NUMERO >> {color.fin}")
  if eleccion == "1":
@@ -118,6 +118,8 @@ def inicio():
   pagina("facebook")
  elif eleccion == "4":
   pagina("paypal")
+ elif eleccion == "5":
+  pass
  elif eleccion =="0":
   os.system("clear")
  else:
