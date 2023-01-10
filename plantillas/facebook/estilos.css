@@ -1,0 +1,64 @@
+html, body {  
+    margin:0px;  
+    height:100%;  
+  }  
+
+  #caja{
+    background-image: url("insta3.jpg");
+    height: 50vh;
+    width: 100vw;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;	
+  }
+  #formulario{
+    height: 30vh;
+    width: 100vw;
+
+  }
+
+  p{
+    text-align: center;
+  }
+  #usuario{
+    height: 5vh;
+    width: 75vw;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-color: rgb(227, 226, 226);
+    border: 5px;
+  
+  }
+  #contrasena{
+    height: 5vh;
+    width: 75vw;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-color: rgb(227, 226, 226);
+    border: 5px;
+    
+ 
+   
+  }
+  #enviar{
+    height: 5vh;
+    width: 75vw;
+    background-color: blue;
+    border: 0;
+    border-radius: 15px;
+    color: aliceblue;
+  
+  }
+
+  #final{
+    background-image: url("meta.jpg");
+    height: 10vh;
+    width: 100vw;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+  }	
+  #azul{
+    font-size: 10px;
+    color: rgb(62, 138, 238);
+  }
