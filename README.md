@@ -9,13 +9,13 @@ pkg install git
 pkg install python
 ```
 ```bash
-git clone https://github.com/Fenrir-00/mazmorratx
+git clone https://github.com/Fenrir-00/phising
 ```
 ```bash
-cd mazmorratx
+cd phising 
 ```
 ```bash
-python3 mazmorra.py
+python3 phisingtx.py
 ```
 
 
