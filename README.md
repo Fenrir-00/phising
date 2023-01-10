@@ -1,6 +1,6 @@
 ![Screenshot](pisingtx.png)
 ![Screenshot](pisingtx1.png)
-![Screenshot](pisingtx2.png)
+![Screenshot](pisingtx3.png)
 # instalación
 ``` bash
 pkg install git
