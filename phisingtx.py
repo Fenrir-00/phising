@@ -1,6 +1,12 @@
 import os, sys, time, io
 import random
-import requests
+while True:
+ try:
+  import requests
+  break
+ except ModuleNotFoundError:
+  os.system("pip install requests")
+
 while True:
  try:
   from lolpython import lol_py
