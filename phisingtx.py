@@ -99,15 +99,15 @@ def ayuda():
  contacto()
  print(f"""
 
-  {color.morado} PHISINTX{color.verde}
+  {color.morado}.      PHISINTX{color.verde}
 
 [✓]  HERRAMIENTA CREADA CON FINES EDUCATIVOS.
 
-[✓]  NECESARIO TENER PUESTO EL AUTOTOKEN EN NROK
+[✓]  NECESARIO TENER PUESTO EL AUTOTOKEN EN NROK.
 
-[✓]  SOLONFUNCIONA CON DATOS
+[✓]  SOLO FUNCIONA CON DATOS.
 
-[✓]  HAY QUE ACTIVAR EL PUNTO DE ACCESO WIFI
+[✓]  HAY QUE ACTIVAR EL PUNTO DE ACCESO WIFI.
 
 """)
  input(f"{color.cyan} PULSA CUALQUIER TECLA PARA CONTINUAR >>>{color.fin}")
