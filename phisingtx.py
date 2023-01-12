@@ -24,10 +24,10 @@ class color:
     rojo = '\033[91m'
     fin = '\033[0m'
 
-r= requests.get("https://raw.githubusercontent.com/Fenrir-00/baner-termux/main/version.txt")
+r= requests.get("https://raw.githubusercontent.com/Fenrir-00/phising/main/version.txt")
 r=r.text
 print(r)
-if r != "version=1.3\n":
+if r != "version=1.0\n":
  os.system("clear")
  print(f"""{color.rojo}HAY UNA NUEVA VERSION ACTUALIZA EL REPOSITORIO
 HAY UNA NUEVA VERSION ACTUALIZA EL REPOSITORIO
@@ -65,7 +65,7 @@ def contacto():
  texto ="""
  |=======================================================|
  | Script by              : #FENRIR-00                   |
- | Version                : Version  2.1                 |
+ | Version                : Version  1.0                 |
  | Follow me on Github    : https://github.com/Fenrir-00 |
  | Contact me on Telegram : @Ritorito1990                |
  ========================================================= """
