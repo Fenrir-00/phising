@@ -156,6 +156,7 @@ def inicio():
   pass
  elif eleccion =="0":
   os.system("clear")
+  exit()
  else:
   incorrecto()
   inicio()
