@@ -1,7 +1,7 @@
 ![Screenshot](datos/pisingtx.png)
-![Screenshot](/datospisingtx1.png)
-![Screenshot](/datospisingtx2.png)
-![Screenshot](/datospisingtx3.png)
+![Screenshot](datos/pisingtx1.png)
+![Screenshot](datos/pisingtx2.png)
+![Screenshot](datos/pisingtx3.png)
 # instalación
 ``` bash
 pkg install git
