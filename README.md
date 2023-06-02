@@ -1,4 +1,4 @@
-![Screenshot](pisingtx.png)
+![Screenshot](datos/pisingtx.png)
 ![Screenshot](pisingtx1.png)
 ![Screenshot](pisingtx3.png)
 # instalación
