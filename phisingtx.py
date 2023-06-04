@@ -202,8 +202,20 @@ def link():
 """)
   input("PULSA CUALQUIER TECLA PARA SEGUIR >>")
  except:
-  print("herror de zona wifi")
-  time.sleep(5)
+  banner()
+  contacto()
+  print(f"""
+
+  {color.rojo}      POSIBLES ERRORES{color.verde}
+
+[✓]  NECESARIO TENER PUESTO EL AUTOTOKEN EN NROK.
+
+[✓]  SOLO FUNCIONA CON DATOS.                              
+
+[✓]  HAY QUE ACTIVAR EL PUNTO DE ACCESO WIFI.
+
+""")
+  time.sleep(7)
   pagina()
 inicio()
 
